@@ -1,5 +1,5 @@
-#ifndef TOKEN.H
-#define TOKEN.H
+#ifndef TOKEN_H
+#define TOKEN_H
 #include <string>
 
 class Token{
@@ -26,4 +26,4 @@ class Token{
 
 };
 
-#endif //TOKEN.H
+#endif //TOKEN_H
