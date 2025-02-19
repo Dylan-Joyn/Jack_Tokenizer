@@ -1,6 +1,7 @@
 #include <iostream>
 #include "JackTokenizer.h"
 #include "XMLWriter.h"
+#include "Token.h"
 
 std::string getOutputFilename(const std::string& inputFilename) {
     return inputFilename.substr(0, inputFilename.find_last_of('.')) + "T.xml";
