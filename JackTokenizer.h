@@ -9,7 +9,7 @@ class JackTokenizer{
     public:
     JackTokenizer(const std::string& filename);
     bool hasMoreTokens();
-    Token getNextTokens();
+    Token getNextToken();
     std::string getXMLEntity(const std::string& value);
 
     private:
